@@ -1,13 +1,7 @@
-body {
-  margin: 0;
-  border: 0;
-  font-family: 'Roboto Mono', monospace;
-}
-
-h1 {
-  font-size: 18px;
-}
-
-h2 {
+html {
   font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
 }
