@@ -11,4 +11,15 @@ html {
 
 }
 
+@font-face {
+  font-family: 'pt_sans_narrowregular';
+  src: url('ptsansnarrow-regular-webfont.woff2') format('woff2'),
+       url('ptsansnarrow-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 h1 { font-family: 'monotonregular';}
+
+p { font-family: 'pt_sans_narrowregular'}
