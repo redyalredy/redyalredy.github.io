@@ -2,4 +2,13 @@ html {
   font-size: 16px;
 }
 
+@font-face {
+  font-family: 'monotonregular';
+  src: url('monoton-regular-webfont.woff2') format('woff2'),
+       url('monoton-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 h1 { font-family: 'monotonregular';}
