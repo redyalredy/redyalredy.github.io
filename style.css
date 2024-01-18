@@ -2,6 +2,7 @@ html {
   font-size: 16px;
 }
 
+/* font face code */
 @font-face {
   font-family: 'monotonregular';
   src: url('monoton-regular-webfont.woff2') format('woff2'),
@@ -20,8 +21,35 @@ html {
 
 }
 
+/* font is applied to the actual website */
 h1 { font-family: 'monotonregular';}
-
 p { font-family: 'pt_sans_narrowregular';}
-
 body {background-color: #9AC7D9;}
+
+/* add a black background to top nav */
+.topnav{
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* style the links inisde the nav bar */
+.topnav a{
+  float: left;
+  color: #9ac7d9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px
+}
+
+/* change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color:white;
+}
