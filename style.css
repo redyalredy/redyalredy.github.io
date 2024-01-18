@@ -30,9 +30,7 @@ p { font-family: 'pt_sans_narrowregular';}
 .topnav{
   background-color: #333;
   overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  
 }
 
 /* style the links inisde the nav bar */
