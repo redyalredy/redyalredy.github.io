@@ -28,8 +28,10 @@ p { font-family: 'pt_sans_narrowregular';}
 
 /* add a black background to top nav */
 .topnav{
-  background-color: #333;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
+  background-color: #333;
   position: fixed;
   top: 0;
   width: 100%;
