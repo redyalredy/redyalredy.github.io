@@ -54,3 +54,8 @@ p { font-family: 'pt_sans_narrowregular';}
   background-color: #9AC7D9;
   color: white;
 }
+
+/* round image */
+img {
+  border-radius: 50%;
+}
