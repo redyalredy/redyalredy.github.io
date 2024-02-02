@@ -106,6 +106,8 @@ input [type=submit]:hover {
   padding: 20px;
 }
 
+/**/
+
 .Background-fixed {
   background-attachment: fixed;
   background-position: center;
