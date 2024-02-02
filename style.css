@@ -561,3 +561,61 @@ header h1{
     text-align: left;
   }
 }
+
+/**/
+
+footer {
+  padding: 50px 0px 0px 0px;
+}
+
+footer .social li {
+  display: inline;
+  margin-left: 20px;
+}
+
+footer .social li a {
+  font-size: 1.25em;
+  color: #999999;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  footer .social li a {
+    font-size: 1em;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  footer .social li:nth-child(1) a {
+    background-image: url(gmail.png);
+  }
+  footer .social li:nth-child(2) a {
+    background-image: url(insta.png);
+  }
+  footer .social li:nth-child(3) a {
+    background-image: url(twitter.png);
+  }
+  footer .social li:nth-child(4) a {
+    background-image: url(linkedin.png);
+  }
+}
+
+@media (min-width: 1025px) {
+  footer .social li:nth-child(1) a {
+    background-image: url(gmail.png);
+  }
+  footer .social li:nth-child(2) a {
+    background-image: url(insta.png);
+  }
+  footer .social li:nth-child(3) a {
+    background-image: url(twitter.png);
+  }
+  footer .social li:nth-child(4) a {
+    background-image: url(linkedin.png);
+  }
+}
