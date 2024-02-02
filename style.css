@@ -147,22 +147,6 @@ label.fcf-label {
   margin-bottom: 0.5rem;
 }
 
-.fcf-credit {
-  padding-top: 10px;
-  font-size: 0.9rem;
-  color: #545b62;
-}
-
-.fcf-credit a {
-  color: #545b62;
-  text-decoration: underline;
-}
-
-.fcf-credit a:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
-
 .fcf-btn {
   display: inline-block;
   font-weight: 400;
@@ -618,4 +602,34 @@ footer .social li a {
   footer .social li:nth-child(4) a {
     background-image: url(linkedin.png);
   }
+}
+
+/**/
+
+.Background-fixed {
+  background-attachment: fixed;
+  background-position: center;
+}
+.ImageBackgroundWrap {
+  position: relative;
+  z-index: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ImageInnerWrap {
+/*  position: relative;
+  z-index: 223;*/
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.TextBackground {
+ background-color: rgba(154,199,217, 0.83);
+ opacity: 0.5;
+  
+  padding: 13%;
+  color: white;
+  text-align: center;
 }
