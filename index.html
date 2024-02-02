@@ -2,6 +2,7 @@
 
   <head>
     <title>Clarissa</title>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
     <link href='style.css' rel='stylesheet' />
     <link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet'>
@@ -14,20 +15,60 @@
       <a class="active" href="#home">Home</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
-    </div>
+    </div> 
+    
 
     <!-- main website -->
-    <div class="container">
-      <div class="box">
-        <p class="textbox"> Welcome! </p>
+      <div id="home" class="ImageBackgroundWrap Background-fixed main" style="Background-image: url( build.jpg)">
+      <div class="ImageInnerWrap main ">
+      <div class="TextBackground main">
+        <div><h1>Welcome to my website</h1></div>
+      
+      <div>
+        <p> Hi I'm Clarissa </p>
       </div>
-    </div>
-    <div id="home", style="padding-left:16px">
-      <h1>Welcome to my page!</h1>
-    </div>
+      </div>
+      </div>
+      </div>
+      <div class="projects">
+        <h2 id="projects" >Projects</h2>
+      <p>here are my projects</p>
+      </div>
+      <div class="skills">
+      <h2 id="skills" >Skills</h2>
+
+      <ul>
+        <li style="--accent-color:#41516C">
+            <div class="date">2002</div>
+            <div class="title">Title 1</div>
+            <div class="descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!</div>
+        </li>
+        <li style="--accent-color:#FBCA3E">
+            <div class="date">2007</div>
+            <div class="title">Title 2</div>
+            <div class="descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci nobis nostrum vero nihil veniam.</div>
+        </li>
+        <li style="--accent-color:#E24A68">
+            <div class="date">2012</div>
+            <div class="title">Title 3</div>
+            <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic.</div>
+        </li>
+        <li style="--accent-color:#1B5F8C">
+            <div class="date">2017</div>
+            <div class="title">Title 4</div>
+            <div class="descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque.</div>
+        </li>
+        <li style="--accent-color:#4CADAD">
+            <div class="date">2022</div>
+            <div class="title">Title 5</div>
+            <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
+        </li>
+    </ul>
+      </div>
+
       <!-- Form Code -->
         <div class="container">
-          <form action=""action_page.php>
+          <form >
             
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -49,18 +90,26 @@
             
           </form>
         </div>
-        
-    <!-- rest of the website -->
-    <div id="introduction">
-      <h2>About Me</h2>
-        <img src="img_avatar.png" alt="Avatar">
-        <p>Hi! My name is Clarissa and am currently in highschool. I'm interested in various things, especially in coding. I'm always interested in learning new things and will post all my future projects on this website!</p>
-    <div id="projects">
-      <h2>Projects</h2>
-        <p>present nd future projects for you all</p>
-    <div id="skills">
-      <h2>Skills</h2>
-    <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+
+        <footer>
+          <div class="container">
+            <div class="units-row">
+                <div class="unit-50">
+                  <p>Handcrafted by Clarissa Chen</p>
+                </div>
+                <div class="unit-50">
+                <ul class="social list-flat right">
+                  <li><a href="mailto:afnizarhilmi@gmail.com"><i class="fa fa-send"></i></a></li>
+                  <li><a href="http://twitter.com/afnizarnur"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="http://dribbble.com/afnizarnur"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a href="http://behance.com/afnizarnur"><i class="fa fa-behance"></i></a></li>
+                </ul>
+                </div>
+            </div>
+          </div>
+        </footer>
+      
   </body>
 
 </html>
+
