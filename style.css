@@ -604,7 +604,7 @@ footer .social li a {
   }
 }
 
-/**/
+/*background thingy at the top*/
 
 .Background-fixed {
   background-attachment: fixed;
@@ -632,4 +632,171 @@ footer .social li a {
   padding: 13%;
   color: white;
   text-align: center;
+}
+
+/* end of the background thingy */
+
+
+/* progres sbar */
+
+#skills {
+  padding: 130px 0;
+}
+
+#skills .container {
+  display: flex;
+}
+
+.skills-title {
+  display: flex;
+  margin: 0 -15px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.text {
+  max-width: 45%;
+}
+
+.text h1 {
+  margin: 15px 0;
+}
+
+.text p {
+  margin: 0 0 50px;
+  line-height: 30px;
+}
+
+.text, .skill-progress-bar {
+  padding: 0 15px;
+}
+
+.hire-me:hover {
+  background-color: #F29979;
+}
+
+.skill-progress-bar {
+  max-width: 50%;
+  width: 100%;
+}
+
+.skills-bar {
+  height: 5px;
+  display: block;
+  background-color: #F29979;
+  visibility: visible; 
+  animation-name: slideInLeft;
+}
+
+#background-bar {
+  margin-bottom: 20px;
+}
+
+#background-bar::before {
+  width: 100%;
+  height: 5px;
+  content: "";
+  display: block;
+  position: relative;
+  background: rgba(255, 255, 255, 0.98);
+  z-index: -1;
+  top: 49px;
+}
+
+#background-bar p{
+  margin-bottom: 20px;
+}
+
+.sb1 {
+  width: 88%;
+}
+
+.sb2 {
+  width: 81%;
+}
+
+.sb3 {
+  width: 70%;
+}
+
+.sb4 {
+  width: 90%;
+}
+
+
+
+/*project showing thingy*/
+
+.services {
+  padding: 130px 0;
+}
+
+.title {
+  text-align: -webkit-center;
+}
+
+.section-title {
+  max-width: 50%;
+}
+
+.section-title h2 {
+  margin: 15px 0;
+  font-size: 35px;
+}
+
+.section-title p {
+  margin-bottom: 100px;
+  font-style: italic;
+}
+
+.grid  {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));;
+  gap: 20px;
+}
+
+.card {
+  background-color: rgb(137, 137, 137);
+  padding: 50px 35px;
+  text-align: left;
+  border-radius: 2px;
+  transition: background-color .5s ease;
+}
+
+.card:hover {
+  background-color: #F29979;
+}
+
+.card i {
+  font-size: 40px;
+}
+
+.card h3 {
+  margin: 20px 0;
+}
+/*about*/
+
+.about-me {
+  padding: 130px 0;
+  background: rgb(137, 137, 137);
+}
+
+.about-title {
+  max-width: 50%;
+}
+
+.about-title h2{
+  margin: 15px 0;
+  font-size: 35px;
+}
+
+.about-title p {
+  margin-bottom: 100px;
+  font-style: italic;
+}
+
+.btn {
+  padding: 10px 30px;
+  border: 2px solid #ff4a57;
+  border-radius: 25px 25px 25px 25px;
 }
