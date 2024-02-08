@@ -218,8 +218,6 @@ label.fcf-label {
   border-radius: 0.3rem;
 }
 
-/**/
-
 .fcf-btn-block {
   display: block;
   width: 100%;
@@ -236,9 +234,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 
 
-/**/
-
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
+/*time line style*/
 
 body{
   font-family: 'pt_sans_narrowregular';
@@ -557,7 +553,7 @@ header h1{
   }
 }
 
-/**/
+/*footer style*/
 
 footer {
   padding: 50px 0px 0px 0px;
@@ -734,7 +730,7 @@ footer .social li a {
   width: 90%;
 }
 
-
+/*end of progress bar*/
 
 /*project showing thingy*/
 
@@ -785,6 +781,8 @@ footer .social li a {
 .card h3 {
   margin: 20px 0;
 }
+/*end of project showing thingy*/
+
 /*about*/
 
 .about-me {
@@ -811,3 +809,5 @@ footer .social li a {
   border: 2px solid #3c4443;
   border-radius: 25px 25px 25px 25px;
 }
+ /* end of about me */
+
